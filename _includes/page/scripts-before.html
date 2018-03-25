@@ -1,0 +1,50 @@
+<script type="text/javascript">
+	var _iub = _iub || [];
+	_iub.csConfiguration = {
+		cookiePolicyId: 79190766,
+		siteId: 1057705,
+		lang: "it"
+	};
+</script>
+<script type="text/javascript" src="//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js" charset="UTF-8" async></script>
+
+{% comment %}
+
+    HTML5 SHIM
+    -----------------------------------------------------------------------------
+
+{% endcomment %}
+
+<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script> <![endif]-->
+<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+
+{% comment %}
+
+    IE BROWSER DETECTION
+    -----------------------------------------------------------------------------
+
+{% endcomment %}
+
+{% if site.ie_version == true %}
+<script>
+    // IE Browser version detection
+    var Browser = {isIE:false};
+</script>
+<!-- By default we will assume that the browser is not IE -->
+<!--[if IE 5]><script>Browser = {isIE:true,version:5};</script><![endif]-->
+<!--[if IE 6]><script>Browser = {isIE:true,version:6};</script><![endif]-->
+<!--[if IE 7]><script>Browser = {isIE:true,version:7};</script><![endif]-->
+<!--[if IE 8]><script>Browser = {isIE:true,version:8};</script><![endif]-->
+<!--[if IE 9]><script>Browser = {isIE:true,version:9};</script><![endif]-->
+{% endif %}
+
+{% comment %}
+
+    MODERNIZR
+    -----------------------------------------------------------------------------
+
+{% endcomment %}
+
+{% if site.modernizr == true %}
+<script src="{{ site.modernizr_url }}"></script>
+{% endif %}

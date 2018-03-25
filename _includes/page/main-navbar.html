@@ -1,0 +1,35 @@
+{% assign c='nav' %}
+
+
+<nav class="main-navbar navbar-expand-md navbar-light fixed-top d-block d-md-flex">
+
+  <a id="scrolltotop" class="main-navbar__brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  
+  <div class="collapse navbar-collapse" id="main-nav">
+    <ul class="navbar-nav ml-auto">
+      {% for link in include.nav %} {% assign current = nil %} {% if page.url == link.url %} {% assign current = 'active' %} {% endif %}
+      {% if link.subpages %}
+      <li class="{{c}}-item dropdown {{ current }} {{ link.class_item }}">
+        <a class="{{c}}-link dropdown-toggle {{ link.class_link }}" id="{{ link.text | downcase | replace: ' ', '-' }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">{{ link.text }}<span class="caret"></span></a>
+        <div class="dropdown-menu" aria-labelledby="{{ link.text | downcase | replace: ' ', '-' }}">
+          {% for subpages in link.subpages %}
+            <a class="dropdown-item {{ current }} {{ subpages.class_link }}" href='{{ site.baseurl }}{{ subpages.url }}'>{{ subpages.text }}</a>
+          {% endfor %}
+        </div>
+      </li>
+      {% elsif link.type == 'mailto' %}
+      <li class="{{c}}-item {{ link.class_item }}">
+        <a class="{{c}}-link {{ current }} {{ link.class_link }}" href='mailto:{{ site.email }}'>{{ link.text }}</a>
+      </li>
+      {% else %}
+      <li class="{{c}}-item {{ current }} {{ link.class_item }}">
+        <a class="{{c}}-link {{ current }} {{ link.class_link }}" {% if link.data-toggle %} data-toggle="{{link.data-toggle}}" {% endif %}{% if link.data-target %} data-target="{{link.data-target}}" {% endif %} href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    <a class="btn-subscribe anchor-link btn btn-sm btn-primary" href="{{ site.baseurl }}/#tickets">Iscriviti</a>
+  </div>
+</nav>

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div id="hero" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ page.image_path | default: 'https://source.unsplash.com/ktQuuihh3_w/1440x648' }}" class="d-block w-100" data-holder-rendered="true">
+      <div class="mask gradient-white h-100 w-100 position-absolute"></div>
+      <div class="carousel-caption d-none d-md-table">
+        <h1 class="post-title text-dark">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% assign c='PostContent' %}
+
+<section class="{{c}} module" id="{{c}}">
+  <div class="container-fluid">
+    <div class="row d-block">
+      <aside class="sidebar col-12 col-md-4 float-left">
+        <nav class="list-group">
+{% comment %}          {% assign sub_navigation = content | extract_element: 'h2' %}
+          {% for item in sub_navigation %}
+            <a class="list-group-item anchorLink" href="#{{ item.id }}">{{ item.text }}</a>
+          {% endfor %}{% endcomment %}
+        </nav>
+      </aside>
+      <div class="col-12 col-md-8 float-right">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+

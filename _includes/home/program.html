@@ -1,0 +1,29 @@
+<section id="program" class="program clearfix">
+  <div class="container-fluid">
+    <div class="row d-block">
+    	<div class="col-12 col-md-10 offset-md-1 gutters-off-md">
+    		<h2 class="text-center">Programma SeriousMonkey</h2>
+				<ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+				  <li class="nav-item mr-1">
+				    <a class="nav-link small active" id="pills-programm-22-tab" data-toggle="pill" href="#pills-programm-22" role="tab" aria-controls="pills-programm-22" aria-selected="true">22 Maggio</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link small" id="pills-programm-23-tab" data-toggle="pill" href="#pills-programm-23" role="tab" aria-controls="pills-programm-23" aria-selected="false">23 Maggio</a>
+				  </li>
+				</ul>
+				<div class="tab-content" id="pills-tabContent">
+				  <div class="tab-pane fade show active" id="pills-programm-22" role="tabpanel" aria-labelledby="pills-programm-22-tab">
+				  	{% include home/program-table.html data=site.data.program-22-may id-table='day-one' id-modal='program-22-' %}
+				  </div>
+				  <div class="tab-pane fade" id="pills-programm-23" role="tabpanel" aria-labelledby="pills-programm-23-tab">
+						{% include home/program-table.html data=site.data.program-23-may id-table='day-two' id-modal='program-23-' %}
+				  </div>
+				</div>
+				<p class="d-none d-md-block text-center pt-3">
+          {% include components/btn.html text="C'è anche una festa serale! Scopri cosa ti aspetta!" class='btn-lg anchor-link' link='/#party' %}
+        </p>
+			</div>
+		</div>
+	</div>
+</section>
+

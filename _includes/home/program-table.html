@@ -1,0 +1,58 @@
+<div id="{{include.id-table}}" class="h-100">
+  <table class="program__inner w-100 d-block d-md-table table">
+		<thead class="program__head text-primary">
+			<tr>
+				<th class="text-uppercase small font-weight-bold">Orario</th>
+				<th class="text-uppercase small font-weight-bold">Attività</th>
+				<th class="text-uppercase small font-weight-bold">Speaker</th>
+				<th class="small d-none">Dettagli</th>
+			</tr>
+		</thead>
+  	<tbody class="w-100">
+		{% for item in include.data %}
+			<tr class="program__item w-100 d-md-table-row {% if forloop.first == true %}active{% endif %} text-center" data-toggle="modal" data-target="#{{ forloop.rindex }}-{{include.id-table}}-{{include.id-modal}}{{ item.activity | downcase | replace: ' ', '-' }}">
+				<td class="program__schedule program__td d-block d-md-table-cell text-dark font-weight-bold text-center text-md-left">{{ item.start }} &#8594; {{ item.end }}</td>
+				<td class="program__activity program__td d-block d-md-table-cell text-dark text-center text-md-left">{{ item.activity }}</td>
+				<td class="program__speaker program__td d-block d-md-table-cell text-dark text-center text-md-left">{% if item.speaker %}{{ item.speaker }}{% endif %}</td>
+				<td class="program__details program__td d-block d-md-table-cell text-dark text-center text-md-right">
+					{% if item.description %}
+					<div class="btn btn-sm btn-light btn-outline-dark" data-toggle="modal" data-target="#{{ forloop.rindex }}-{{include.id-table}}-{{include.id-modal}}{{ item.activity | downcase | replace: ' ', '-' }}">Dettagli</div>
+					{% endif %}
+				</td>
+			</tr>
+		{% endfor %}
+		</tbody>
+  </table>
+  <a class="carousel-control-prev d-md-none" href="#{{include.id-table}}" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next d-md-none" href="#{{include.id-table}}" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+{% for item in include.data %}
+{% if item.description %}
+<div class="modal fade" id="{{ forloop.rindex }}-{{include.id-table}}-{{include.id-modal}}{{ item.activity | downcase | replace: ' ', '-' }}">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-info">
+        <h3 class="modal-title text-light text-uppercase small font-weight-bold">Attività</h3>
+        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3 class="modal-title mb-1">{{ item.activity }}</h3>
+        <p class="description">{{ item.description }}</p>
+      	<h3 class="text-dark mb-0">{{ item.speaker }}</h3>
+        <p class="description text-primary small mb-0">{{ item.position }}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-sm btn-danger text-uppercase small font-weight-bold" data-dismiss="modal">&times; Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}

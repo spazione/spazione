@@ -1,0 +1,32 @@
+- text: 'A chi è dedicato'
+  url: '/#target'
+  class_link: anchor-link close-menu
+
+- text: 'Argomenti'
+  url: '/#topic'
+  class_link: anchor-link close-menu
+
+- text: 'Location'
+  url: '/#location'
+  class_link: anchor-link close-menu
+
+- text: 'Programma'
+  subpages:
+  - text: 'Programma 22 Maggio'
+    url: '/#program'
+    class_link: nav-program-22 anchor-link close-menu
+  - text: 'Programma 23 Maggio'
+    url: '/#program'
+    class_link: nav-program-23 anchor-link close-menu
+  - text: 'Party'
+    url: '/#party'
+    class_link: anchor-link close-menu
+
+- text: 'FAQ'
+  url: '#'
+  class_link: close-menu
+  data-toggle: 'modal'
+  data-target: '#faq'
+
+# - text: 'Contatti'
+#   type: mailto

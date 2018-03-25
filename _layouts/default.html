@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}" {% if site.modernizr == true %}class="no-js"{% endif %}>
+  {% include page/head.html %}
+  <body role="document" class="s-global s-{{ page.layout }}" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+  	{% include page/google-tag-manager-after.html %}
+    {% include page/main-header.html %}
+    {% include page/main-content.html %}
+    {% if page.layout != 'program' %}{% include page/main-footer.html %}{% endif %}
+    {% include page/scripts-after.html %}
+  </body>
+</html>

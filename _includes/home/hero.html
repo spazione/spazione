@@ -1,0 +1,37 @@
+
+
+<section id="hero" class="hero module module--border clearifx">
+  <div class="container-fluid">
+    <div class="row d-block d-md-flex clearfix">
+      <div class="hero__illustration col-12 gutters-off">
+        <div class="hero__mask mask position-absolute"></div>
+        <div class="hero__bg-anim w-50 position-absolute">
+          <div id="sea-sm"></div>
+          <div id="sea-md"></div>
+          <div id="sea-lg"></div>
+        </div>
+        <div class="hero__bg-anim w-100 position-absolute">
+          <div id="clouds-sm"></div>
+          <div id="clouds-md"></div>
+          <div id="clouds-lg"></div>
+        </div>
+        <div class="hero__ship-container position-absolute">
+          <div class="hero__anim-updown">
+            <img class="hero__ship" src="{{ site.baseurl }}{{ site.img_path}}home/ship.svg" alt="{{ site.title }} - {{ page.description }}">
+          </div>
+          <div class="hero__waves hero__waves--three position-absolute"></div>
+          <div class="hero__waves hero__waves--two position-absolute"></div>
+          <div class="hero__waves hero__waves--one position-absolute"></div>
+        </div>
+      </div>
+      <div class="hero__intro col-12 gutters-off-md reveal">
+        <p class="hero__dates text-uppercase text-primary mt-2 mb-1 col-12 col-md-5 offset-md-1 gutters-off-md text-center text-md-left"><time datetime="2018-05-22">22</time> / <time datetime="2018-05-23">23</time> Maggio 2018</p>
+        <h1 class="col-12 col-md-5 offset-md-1 gutters-off text-center text-md-left mb-1">SeriousMonkey</h1>
+        <p class="col-12 col-sm-8 offset-sm-2 col-md-4 offset-md-1 gutters-off text-center text-md-left">SeriousMonkey è un evento formativo SEO curato da Enrico Altavilla e dedicato a strategie SEO e SEO tecnica.</p>
+        <p class="col-12 col-md-5 offset-md-1 gutters-off text-center text-md-left d-none d-md-block">
+          {% include components/btn.html text='Scopri a chi è dedicato SeriousMonkey' link='/#target' class='anchor-link' %}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

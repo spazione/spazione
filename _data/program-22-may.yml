@@ -1,0 +1,105 @@
+-
+    start: '8:00'
+    end: '9:30'
+    activity: Accettazione iscritti
+    description: 
+    speaker: 
+    position: 
+-
+    start: '9:30'
+    end: '9:35'
+    activity: Introduzione
+    description: 
+    speaker: Staff
+    position: 
+-
+    start: '9:35'
+    end: '10:10'
+    activity: 'Fireside chat: la SEO che verrà'
+    description: 
+    speaker: Marco Loguercio
+    position: CEO di FIND
+-
+    start: '10:10'
+    end: '10:55'
+    activity: Il Ruolo della SEO nella sinergia con gli altri canali di web marketing
+    description: 'Analizzerò nel dettaglio come la strategia SEO sia importante non solo per l''aumento del traffico organico ma anche come base di partenza per una strategia completa di marketing sul web in quanto la SEO rappresenta un meccanismo di profilazione centrale e consente di costruire una macchina di traffico utile per sfruttare al meglio tutte le altre piattaforme di advertising.'
+    speaker: Alessandra Maggio
+    position: Digital Strategist presso Studio Samo
+-
+    start: '10:55'
+    end: '11:30'
+    activity: 'Data Marketing'
+    description: 'Metodologia su come generare dati da utilizzare per un progetto di Data Marketing e come veicolarlo per aumentare la brand awareness e ottenere attenzione mediatica e link naturali di alta qualità.'
+    speaker: Giacomo Gaggiotti
+    position: Senior Content Marketing Manager at Zalando SE
+-
+    start: '11:30'
+    end: '12:05'
+    activity: 'Strutturare al meglio il sito per gli utenti studiando query di ricerca e competitor'
+    description: 'Come fare un''analisi dei competitor e delle parole chiave in modo da avere e realizzare una struttura del sito web "perfetta" per gli utenti e che porti risultati concreti. L''utente deve essere al centro del progetto web e vedremo come fare in modo che ne sia l''artefice del successo.'
+    speaker: Stefano Rigazio
+    position: CEO di Enthous
+-
+    start: '12:05'
+    end: '12:40'
+    activity: 'SEO Strategy in un contesto multicanale - Dall''analisi alla gestione di progetto'
+    description: 'I dati che provengono dalla SEO possono essere utilizzati con una grandissima quantità di applicazioni. Dall''analisi degli intenti di ricerca, al supporto di strategie di marketing e comunicazione "offline", fino alla protezione di brand. Nell''intervento spiegherò una serie di approcci non convenzionali alla SEO che sono stati utili per definire strategie di marketing più ampie, in diversi ambiti: politico, turismo esperienziale, insurancetech. L''intervento sarà centrato sull''impostazione di un framework di gestione costruito intorno alle esigenze del singolo progetto e sulla gestione dell''attività, dal brief al fine tuning.'
+    speaker: Paolo Dello Vicario
+    position: ByTek Marketing - Responsabile operativo
+-
+    start: '12:40'
+    end: '14:20'
+    activity: Pausa pranzo (pranzo non incluso nel biglietto)
+    description: 
+    speaker: 
+    position: 
+-
+    start: '14:20'
+    end: '14:55'
+    activity: 'In attesa del titolo dell''intervento'
+    description: 
+    speaker: Enrico Altavilla
+    position: SEO Consultant at SearchBrain
+-
+    start: '14:55'
+    end: '15:40'
+    activity: Come eseguire una analisi dei competitor online
+    description: Metodologia pratica per analizzare un settore, identificare i top player e studiare le loro strategie vincenti per poi applicarle al proprio sito web.
+    speaker: Giovanni Sacheli
+    position: Consulente SEO
+-
+    start: '15:40'
+    end: '16:15'
+    activity: Il ruolo del search marketing nel rebranding e nel posizionamento di nuovi prodotti
+    description: 
+    speaker: Daniela Ballabio
+    position: Digital Communication Manager presso Nexi
+-
+    start: '16:15'
+    end: '17:00'
+    activity: Coffee break (caffè e dolci inclusi nel biglietto)
+    description: 
+    speaker: 
+    position: 
+-
+    start: '17:00'
+    end: '17:45'
+    activity: Local SEO per catene con molti punti vendita
+    description: Strategia e Tecniche per la gestione della Local SEO di catene con molti punti vendita. Problemi da affrontare, opportunità da sfruttare e un metodo per ottenere i massimi risultati.
+    speaker: Luca Bove
+    position: Fondatore di Local Strategy
+-
+    start: '17:45'
+    end: '18:45'
+    activity: I peggiori errori SEO che ho visto fare
+    description: 'Durante questa tavola rotonda i relatori racconteranno gli orrori/errori SEO più gravi osservati durante la loro carriera, con l''obiettivo di spiegare perché erano degli errori, come potevano essere prevenuti e come si può correre ai ripari quando ormai l''errore è fatto.'
+    speaker: Relatori
+    position: 
+-
+    start: '18:45'
+    end: '18:50'
+    activity: Chiusura
+    description: 
+    speaker: Staff
+    position: 

@@ -1,0 +1,105 @@
+-
+    start: '8:00'
+    end: '9:30'
+    activity: Accettazione iscritti
+    description: 
+    speaker: 
+    position: 
+-
+    start: '9:30'
+    end: '9:35'
+    activity: Introduzione
+    description: 
+    speaker: Staff
+    position: 
+-
+    start: '9:35'
+    end: '10:10'
+    activity: 'L''analisi dei log del server'
+    description: Come analizzare i log del server per comprendere ciò che avviene sul tuo sito.
+    speaker: Paolo Amorosi
+    position: SEO Coordinator Pro Web Consulting
+-
+    start: '10:10'
+    end: '10:45'
+    activity: Come utilizzare l’analisi delle Query e il search intent per ottimizzare le pagine di Listing di un sito e-commerce
+    description: 'L’obiettivo dell’intervento è illustrare un approccio basato sull’analisi delle query e del loro Intent che permetta di elaborare una strategia SEO per una determinata categoria di pagine: le pagine di listing di un e-commerce.'
+    speaker: Sergio de Cristofaro Sivilia
+    position: Project Manager at Artsia Srl
+-
+    start: '10:45'
+    end: '11:20'
+    activity: 50 sfumature di Screaming Frog
+    description: 'L''intervento propone una serie di tecniche, consigli ed esempi per sfruttare le più importanti funzioni del tool, molto utili nella fase di sviluppo di un''analisi SEO Tecnica: Configurazione del tool e dello spider, Metodi di scansione, Errori Sitemap, Status code di errore, Come sfruttare la custom search e extraction, Esportazione dei risultati, Analisi del linking interno, Analizzare i meta dati, ecc.'
+    speaker: Francesco Primiceri
+    position: SEO at IM Evolution
+-
+    start: '11:20'
+    end: '11:55'
+    activity: 'La SEO su YouTube: tecniche, suggerimenti… e un caso di successo'
+    description: 
+    speaker: Giada Birbitello / Bruno Grande
+    position: SEO Specialist - Optimize
+-
+    start: '11:55'
+    end: '12:30'
+    activity: Posizionamento per Amazon
+    description: Descrizione dei fattori che influenzano il posizionamento e la visibilità dei prodotti su Amazon.
+    speaker: Pasquale Gangemi / Giulia Rognoni
+    position: Pro Web Consulting
+-
+    start: '12:30'
+    end: '14:00'
+    activity: Pausa pranzo (pranzo non incluso nel biglietto)
+    description: 
+    speaker: 
+    position: 
+-
+    start: '14:00'
+    end: '14:35'
+    activity: 'Come Sherlock Holmes: indagare le perdite di visibilità e traffico organico'
+    description: 
+    speaker: Enrico Altavilla
+    position: SEO Consultant at SearchBrain
+-
+    start: '14:35'
+    end: '15:20'
+    activity: Come ottimizzare al meglio i contenuti editoriali usando strumenti gratuiti
+    description: 'Una metodologia per individuare gli interventi per ottenere - con il minimo sforzo - risultati a portata di mano nell''ottimizzazione dei contenuti editoriali. Concetti base, alla portata di tutti, assistiti da strumenti gratuiti d''uso comune e un po'' di meningi.'
+    speaker: Federico Sasso
+    position: Amministratore Unico di aStonish Studio srl
+-
+    start: '15:20'
+    end: '15:55'
+    activity: 'Misurare il SEO nell''era della Dark Search'
+    description: 'Keyword (not provided), visite dai motori di ricerca senza informazioni sul referrer HTTP, proliferare dei servizi di intelligence di terze parti... l''attività di raccolta dati ed analisi delle attività SEO ha subito ben più di uno scossone nel corso degli ultimi anni. Scopriamo assieme quali sono i principali strumenti, KPI e metodi per mantenere una solida metodologia che permetta di individuare punti di forza e dettagli mancanti nelle nostre attività SEO in modo costante nel tempo.'
+    speaker: Martino Mosna
+    position: Consulente freelance
+-
+    start: '15:55'
+    end: '16:40'
+    activity: Coffee break (caffè e dolci inclusi nel biglietto)
+    description: 
+    speaker: 
+    position: 
+-
+    start: '16:40'
+    end: '17:15'
+    activity: 'Google Tag Manager e la SEO: #barbatrucchi tecnici per controllare l''on page'
+    description: "Google Tag Manager è considerato per molti come uno strumento dedicato esclusivamente alla web analytics. Niente di più errato. Google Tag Manager è un iniettore di codice e può senza dubbio aiutarti anche a superare dei problemi tecnici anche quando NON hai il pieno controllo delle pagine del sito. Solo casi pratici e modifiche dal vivo. Zero teoria.\n"
+    speaker: Matteo Zambon
+    position: Fondatore di Tag Manager Italia
+-
+    start: '17:15'
+    end: '17:50'
+    activity: 'SEO e Web Performance: tecniche di analisi al passo coi tempi'
+    description: 
+    speaker: Enrico Altavilla
+    position: 
+-
+    start: '17:50'
+    end: '18:00'
+    activity: Chiusura
+    description: 
+    speaker: Staff
+    position: 

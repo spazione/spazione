@@ -1,0 +1,133 @@
+#//////////////////////////////////////////////////////////////////////////////
+#/
+#/  SITE SETTINGS
+#/
+#//////////////////////////////////////////////////////////////////////////////
+
+title: 'SeriousMonkey'
+description: "Insert description here."
+locale: it # eg. en_US
+author_name:
+author_url: 
+copyright: 'SeriousMonkey - © 2018, Enrico Altavilla P.IVA IT04553560824'
+email: info@seriousmonkey.it
+url: 'spazione.github.io'
+address: 'spazione.github.io'
+baseurl: '/spazione' # the subpath of your site, e.g. /blog
+og_image: /uploads/default-ogimage.png
+
+
+#//////////////////////////////////////////////////////////////////////////////
+#/
+#/  TICKETS
+#/
+#//////////////////////////////////////////////////////////////////////////////
+
+show_tickets: false
+
+#//////////////////////////////////////////////////////////////////////////////
+#/
+#/  PLUGINS
+#/
+#//////////////////////////////////////////////////////////////////////////////
+
+plugins:
+  - jekyll-tidy
+  - jekyll-sitemap
+  - jekyll-feed
+  # - jekyll-autoprefixer
+
+
+#//////////////////////////////////////////////////////////////////////////////
+#/
+#/  COLLECTIONS
+#/
+#//////////////////////////////////////////////////////////////////////////////
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:path/
+  uploads:
+    title: Uploads
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      is_default: true 
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      is_post: true # automatically set is_post=true for all posts
+  -
+    scope:
+      type: "pages"
+    values:
+      layout: "page"
+      is_page: true 
+
+#//////////////////////////////////////////////////////////////////////////////
+#/
+#/  Build settings
+#/
+#//////////////////////////////////////////////////////////////////////////////
+
+# HTML COMPRESSION
+
+jekyll_tidy:
+  compress_html: true
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  # style: expanded # You might prefer to minify using :compressed
+  style: compressed # You might prefer to minify using :compressed
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+excerpt_separator: <!--more-->
+keep_files: [".git", ".svn"]
+exclude: ["package.json", "package-lock.json", "Gemfile", "Gemfile.lock", "node_modules"]
+
+
+#//////////////////////////////////////////////////////////////////////////////
+#/
+#/  PATHS
+#/
+#//////////////////////////////////////////////////////////////////////////////
+
+img_path: /static/img/ # Images Path
+favicon_path: favicons/ # favicons folder
+css_path: /static/css/ # Css Path
+main_css: main.css # Main Css style sheet
+js_path: /static/js/ # Javascript Path
+main_js: main.min.js # Main Javascript
+
+# modernizr
+modernizr: false
+modernizr_url: http://yastatic.net/modernizr/2.7.1/modernizr.min.js
+
+# Internet Explorer version detection
+ie_version: false
+
+# Grids
+# -----------------------------------------------------------------------------
+grids: false
+grids_url: https://spazione.github.io/grids/assets/js/grids.js
+
+
+
+

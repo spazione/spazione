@@ -1,0 +1,23 @@
+<section id="tickets" class="tickets clearifx">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 gutters-off-md text-center">
+          <div {% if site.show_tickets != true %} id="countdown-view" {% endif %} style="display:none">
+            <p class="text-big mb-1">Le iscrizioni apriranno su questo sito<br>mercoledì 28 marzo 2018 alle ore 10:43 (ora italiana).<br>Quindi rimangono...</p>
+            <div class="countdown clearfix mb-2">
+              <div id="countdown" class="countdown__container"></div>
+            </div>
+            <p>
+              {% include components/btn.html text='Mentre aspetti, rimani aggiornato su eventi futuri' link='/#mailing-list' class='btn-lg anchor-link d-none d-md-inline-block' %}
+            </p>
+          </div>
+          <div class="col-12 gutters-off col-md-10 offset-md-1" {% if site.show_tickets != true %} id="eventbrite-view" {% endif %} {% if site.show_tickets != true %} style="display:none" {% endif %} >
+            <h2 class="text-center">Programma SeriousMonkey</h2>
+            <p>Acquista il biglietto compilando il modulo che segue o attraverso <a target="_blank" class="font-weight-bold" href="https://www.eventbrite.com/e/biglietti-seriousmonkey-44214066463">la pagina Eventbrite dell'evento</a>.</p>
+            <iframe id="tickets__iframe" class="tickets__iframe" src="" frameborder="0" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+            {% include components/btn.html text='Rimani aggiornato su eventi futuri' link='/#mailing-list' class='btn-lg anchor-link d-none d-md-inline-block' %}
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
