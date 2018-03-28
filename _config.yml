@@ -15,6 +15,7 @@ url: 'spazione.github.io'
 address: 'spazione.github.io'
 baseurl: '/spazione' # the subpath of your site, e.g. /blog
 og_image: /uploads/default-ogimage.png
+env: development
 
 
 #//////////////////////////////////////////////////////////////////////////////

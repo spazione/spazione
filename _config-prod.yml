@@ -4,4 +4,4 @@
 url: "https://seriousmonkey.it" # the base hostname & protocol for your site
 address: "https://seriousmonkey.it"
 baseurl: ''
-
+env: production
