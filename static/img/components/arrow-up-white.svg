@@ -1,1 +1,14 @@
-<svg width="27" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M21.02 15.364a3 3 0 0 0 4.243-4.243l-9.899-9.9a3 3 0 0 0-4.243 0l-9.9 9.9a3 3 0 0 0 4.243 4.243l7.779-7.778 7.778 7.778z" fill="#FFF"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="27px" height="17px" viewBox="0 0 27 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Serious-Monket-Teasing-Page-mobile-updated-Copy-5" transform="translate(-534.000000, -357.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group-15" transform="translate(53.000000, 331.000000)">
+                <path d="M502.020815,41.363961 C503.192388,42.5355339 505.091883,42.5355339 506.263456,41.363961 C507.435029,40.1923882 507.435029,38.2928932 506.263456,37.1213203 L496.363961,27.2218254 C495.192388,26.0502525 493.292893,26.0502525 492.12132,27.2218254 L482.221825,37.1213203 C481.050253,38.2928932 481.050253,40.1923882 482.221825,41.363961 C483.393398,42.5355339 485.292893,42.5355339 486.464466,41.363961 L494.242641,33.5857864 L502.020815,41.363961 Z" id="Rectangle-22"></path>
+            </g>
+        </g>
+    </g>
+</svg>

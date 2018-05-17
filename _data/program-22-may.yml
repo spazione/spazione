@@ -43,10 +43,10 @@
 -
     start: '12:05'
     end: '12:40'
-    activity: 'SEO Strategy in un contesto multicanale - Dall''analisi alla gestione di progetto'
-    description: 'I dati che provengono dalla SEO possono essere utilizzati con una grandissima quantità di applicazioni. Dall''analisi degli intenti di ricerca, al supporto di strategie di marketing e comunicazione "offline", fino alla protezione di brand. Nell''intervento spiegherò una serie di approcci non convenzionali alla SEO che sono stati utili per definire strategie di marketing più ampie, in diversi ambiti: politico, turismo esperienziale, insurancetech. L''intervento sarà centrato sull''impostazione di un framework di gestione costruito intorno alle esigenze del singolo progetto e sulla gestione dell''attività, dal brief al fine tuning.'
-    speaker: Paolo Dello Vicario
-    position: ByTek Marketing - Responsabile operativo
+    activity: Il ruolo del search marketing nel rebranding e nel posizionamento di nuovi prodotti
+    description: 
+    speaker: Daniela Ballabio
+    position: Digital Communication Manager presso Nexi
 -
     start: '12:40'
     end: '14:20'
@@ -57,7 +57,7 @@
 -
     start: '14:20'
     end: '14:55'
-    activity: 'In attesa del titolo dell''intervento'
+    activity: 'Search Personas: ottenere più risultati definendo i profili di utenti e clienti'
     description: 
     speaker: Enrico Altavilla
     position: SEO Consultant at SearchBrain
@@ -71,10 +71,10 @@
 -
     start: '15:40'
     end: '16:15'
-    activity: Il ruolo del search marketing nel rebranding e nel posizionamento di nuovi prodotti
-    description: 
-    speaker: Daniela Ballabio
-    position: Digital Communication Manager presso Nexi
+    activity: 'SEO Strategy in un contesto multicanale - Dall''analisi alla gestione di progetto'
+    description: 'I dati che provengono dalla SEO possono essere utilizzati con una grandissima quantità di applicazioni. Dall''analisi degli intenti di ricerca, al supporto di strategie di marketing e comunicazione "offline", fino alla protezione di brand. Nell''intervento spiegherò una serie di approcci non convenzionali alla SEO che sono stati utili per definire strategie di marketing più ampie, in diversi ambiti: politico, turismo esperienziale, insurancetech. L''intervento sarà centrato sull''impostazione di un framework di gestione costruito intorno alle esigenze del singolo progetto e sulla gestione dell''attività, dal brief al fine tuning.'
+    speaker: Paolo Dello Vicario
+    position: ByTek Marketing - Responsabile operativo
 -
     start: '16:15'
     end: '17:00'

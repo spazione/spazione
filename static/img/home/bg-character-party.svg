@@ -1,1 +1,37 @@
-<svg width="448" height="448" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h640v680H0z"/><circle id="c" cx="667" cy="514" r="224"/></defs><g transform="matrix(-1 0 0 1 544 -224)" fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)"><g transform="translate(-347 -66)"><mask id="d" fill="#fff"><use xlink:href="#c"/></mask><use fill="#65637D" xlink:href="#c"/><g mask="url(#d)"><path fill="#77768C" d="M277 514h662v364H277z"/><path fill="#65637D" d="M347 210h647v272H347z"/><path fill="#65637D" d="M347-477h647v927H347z"/><path fill="#77768C" d="M347 546h662v285H347z"/><path fill="#8B8A9D" d="M347 578h662v202H347z"/></g></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="448px" height="448px" viewBox="0 0 448 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>circle-mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="640" height="680"></rect>
+        <circle id="path-3" cx="667" cy="514" r="224"></circle>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-4" transform="translate(-96.000000, -224.000000)">
+            <g id="bg-character-copy-3" transform="translate(320.000000, 340.000000) scale(-1, 1) translate(-320.000000, -340.000000) ">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-2" fill="#FF0000" opacity="0" xlink:href="#path-1"></use>
+                <g id="inclined-bg" mask="url(#mask-2)">
+                    <g transform="translate(-347.000000, -66.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="circle-mask" stroke="none" fill="#65637D" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <g id="nature-bg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-4)">
+                            <g transform="translate(165.000000, -477.000000)">
+                                <rect id="Rectangle-3" fill="#77768C" x="112" y="991" width="662" height="364"></rect>
+                                <rect id="Rectangle-4" fill="#65637D" x="182" y="687" width="647" height="272"></rect>
+                                <rect id="Rectangle-4" fill="#65637D" x="182" y="0" width="647" height="927"></rect>
+                                <rect id="Rectangle-3" fill="#77768C" x="182" y="1023" width="662" height="285"></rect>
+                                <rect id="Rectangle-3" fill="#8B8A9D" x="182" y="1055" width="662" height="202"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

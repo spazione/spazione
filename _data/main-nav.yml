@@ -6,7 +6,7 @@
   url: '/#topic'
   class_link: anchor-link close-menu
 
-- text: 'Location'
+- text: 'Dove/Quando'
   url: '/#location'
   class_link: anchor-link close-menu
 

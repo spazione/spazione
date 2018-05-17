@@ -1,0 +1,6 @@
+# URLs
+# -----------------------------------------------------------------------------
+
+url: "http://dev.zeego.net" # the base hostname & protocol for your site
+address: "http://dev.zeego.net"
+baseurl: '/seriousmonkey'

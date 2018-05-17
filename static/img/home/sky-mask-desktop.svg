@@ -1,1 +1,12 @@
-<svg width="1280" height="608" xmlns="http://www.w3.org/2000/svg"><path d="M397.016 0c-.934 80.092 40.24 158.338 114.544 201.238l555.361 320.638c38.17 22.037 80.045 31.84 121.086 30.624H1280V608H0V0h397.016z" fill="#FFF" fill-rule="evenodd"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280px" height="608px" viewBox="0 0 1280 608" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>hero-mask-desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hero-mask-desktop" fill="#FFFFFF">
+            <path d="M397.01555,3.35589667e-15 C396.081549,80.0917141 437.255183,158.338326 511.559675,201.238044 L1066.92126,521.876203 C1105.09044,543.913189 1146.96595,553.715527 1188.00669,552.5 L1280,552.5 L1280,608 L0,608 L0,0 L397.01555,3.35589667e-15 Z"></path>
+        </g>
+    </g>
+</svg>
